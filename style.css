@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #fff !important;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  margin-right: 15px;
+  border: 1px solid transparent;
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #fff;
+}
+.navbar-nav .nav-link.active {
+  background-color: gold;
+  color: black !important;
+}
+
+/* White Hamburger Icon */
+.navbar-toggler {
+  border-color: #fff;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Logout Button */
+.logout-btn {
+  color: #ff4d4d !important;
+  font-weight: bold;
+}
+.logout-btn:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+  border-color: red;
+}
+
+/* Card Styles */
+.card {
+  background-color: #ffffff;
+  color: #333;
+  border: none;
+  border-radius: 15px;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 20px;
+}
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004a9f;
+}
+.btn-outline-primary {
+  border-radius: 20px;
+}
+
+/* Input & Select Fields */
+input, select {
+  border-radius: 10px !important;
+}
+
+/* Login Background */
+.login-bg {
+  background: linear-gradient(135deg, #1f4037, #99f2c8);
+}
+
+/* Chart Legend Text */
+.text-center span {
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+}
